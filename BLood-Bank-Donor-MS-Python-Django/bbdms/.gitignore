@@ -1,0 +1,45 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# SQLite database
+*.sqlite3
+
+# Environment files
+.env
+.env.*
+
+# Secret configuration files
+settings_local.py
+
+# Django media & static files (generated at runtime or collected)
+media/
+staticfiles/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# MacOS/Windows system files
+.DS_Store
+Thumbs.db
+
+# Python egg and distribution
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# pip cache
+pip-wheel-metadata/
