@@ -46,31 +46,21 @@ python manage.py runserver
 
 ---
 
-### 7. Install MySQL Clients
+### 7. Apply Migrations
 
 ```bash
-pip install mysqlclient
-pip install pymysql
-```
-
----
-
-### 8. Apply Migrations
-
-```bash
-python manage.py makemigrations bbdmsapp
 python manage.py migrate
 ```
 
 ---
 
-### 9. Run Server Again
+### 8. Run Server Again
 
 ```bash
 python manage.py runserver
 ```
 
-### 10. Run the Project in Browser
+### 9. Run the Project in Browser
 
 Click the URL:
 
