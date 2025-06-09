@@ -36,17 +36,8 @@ cd bbdms\bloodbanksystem
 cd bloodbanksystem
 ```
 
----
 
-### 6. Run the Project
-
-```bash
-python manage.py runserver
-```
-
----
-
-### 7. Apply Migrations
+### 6. Apply Migrations
 
 ```bash
 python manage.py migrate
@@ -54,13 +45,13 @@ python manage.py migrate
 
 ---
 
-### 8. Run Server Again
+### 7. Run Server Again
 
 ```bash
 python manage.py runserver
 ```
 
-### 9. Run the Project in Browser
+### 8. Run the Project in Browser
 
 Click the URL:
 
