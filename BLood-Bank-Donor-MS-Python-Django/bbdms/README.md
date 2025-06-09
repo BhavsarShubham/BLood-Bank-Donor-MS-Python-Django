@@ -25,7 +25,7 @@ pip install Django
 
 ```bash
 cd project_path
-cd BLood-Bank-Donor-MS-Python-Django\BLood-Bank-Donor-MS-Python-Django\bbdms\bloodbanksystem
+cd bbdms\bloodbanksystem
 ```
 
 ---
@@ -70,45 +70,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
----
-
-### 10. Configure `settings.py` for MySQL
-
-Add the following lines in your `settings.py`:
-
-```python
-import pymysql
-pymysql.install_as_MySQLdb()
-```
-
----
-
-### 11. Verify MariaDB Version
-
-Open **Command Prompt (cmd)** and run:
-
-```bash
-mysql -u root -p
-```
-
-Enter the password, then run:
-
-```sql
-SELECT VERSION();
-```
-
-Expected output:
-```
-10.5.24-MariaDB
-```
-
----
-
-### 12. Fix PATH or Multiple Install Conflicts (if any)
-
----
-
-### 13. Run the Project in Browser
+### 10. Run the Project in Browser
 
 Click the URL:
 
